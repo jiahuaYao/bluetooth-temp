@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="m5b]h{ggpGojrj1}GKwZ" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="^_-V!akqvFZu{4#nsBQ0"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="bluetooth_start_accelerometer_service" id="WFy*trnX5,L|duSf#gr:"><next><block type="bluetooth_start_led_service" id="J:7@vP7F.vAFKbR?GfzV"><next><block type="bluetooth_start_temperature_service" id="=*Hr;7}tp8a,s}]]-KMC"/></next></block></next></block></next></block></statement></block><block type="bluetooth_on_connected" id="[_Ys5U?3;93/i}!La1HT" x="295" y="88"><statement name="HANDLER"><block type="device_show_leds" id="$%bF5K3T}JK}KmXbuy(m"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . # # # .
+        `</field></block></statement></block><block type="bluetooth_on_disconnected" id="}%q:=`?*Iz:Ctj@MB6H#" x="545" y="90"><statement name="HANDLER"><block type="device_show_leds" id="gpPzEHS|,mnfa+_!$BM]"><field name="LEDS">`
+        . # # # . 
+        . # . . # 
+        . # . . # 
+        . # . . # 
+        . # # # .
+        `</field></block></statement></block></xml>
